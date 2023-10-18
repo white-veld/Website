@@ -57,6 +57,9 @@ footer {
   .characters_image{
     display: none;
   }
+  .no_print{
+    display: none;
+  }
   .image{
     display: none;
   }
