@@ -4,6 +4,7 @@ header{
 
 h2{
   text-align: center;
+  margin-inline-start: 30px;
 }
 
 h3{
@@ -44,6 +45,19 @@ footer {
 
 @media screen and (max-width:299px){
   .characters_image{
+    display: none;
+  }
+}
+
+@media print{
+  body {
+    background-color: white;
+    color: black;
+  }
+  .characters_image{
+    display: none;
+  }
+  .image{
     display: none;
   }
 }
