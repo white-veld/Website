@@ -1,0 +1,40 @@
+header{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+body {
+  background-color: #25d05b;
+  color: white;
+}
+footer {
+  margin: 50px;
+}
+
+.characters {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.characters_image{
+  max-height: 300px;
+  max-width: 300px;
+  border-radius: 15px;
+}
+
+.image{
+  margin-inline: 10px;
+  max-height: 20px;
+  max-width: 20px;
+}
+
+@media screen and (max-width:299px){
+  .characters_image{
+    display: none;
+  }
+}
