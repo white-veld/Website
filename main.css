@@ -6,10 +6,19 @@ h2{
   text-align: center;
 }
 
+h3{
+  margin-inline-start: 20px;
+}
+
 body {
   background-color: #25d05b;
   color: white;
 }
+
+p{
+  margin-inline-start: 20px;
+}
+
 footer {
   margin: 50px;
 }
